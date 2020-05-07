@@ -12,17 +12,36 @@ The purpose of the task is to examine the following points:
 * Expanded JavaScript knowledge jQuery framework (and any other framework)
 * Expanded knowledge of CSS framework
 
-## Available Scripts
+## Pre-setup
+Make sure Node version >9 and NPM version >5 is installed by executing the following commands in terminal:
+> node -v
+> npm -v
 
-In the project directory, you can run:
+The terminal should respond something like:
+> v.9.x.x
+> v.5.x.x
 
-### `npm start`
+If not, head over to [http://nodejs.org] and install/update Node for your system.
 
-Runs the app in the development mode.<br />
+## Setup
+Clone repository and execute the following:
+> $ cd dailyword
+
+Setup all dependencies by running:
+> $ npm install
+
+## Start developing server
+Execute the following:
+> $ npm start
+
+to initiate the server.
+
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+
+## Contribute
+Fell free to contribute to this project by forking or report any bugs/errors!
+
 
 ## Learn More
 
